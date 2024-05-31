@@ -56,11 +56,11 @@ class Decoder(nn.Module):
         
         self.decoder_lin = nn.Sequential(
             # 1st linear layer
-            nn.Linear(encoded_space_dim, fc2_input_dim),
+            nn.Linear(encoded_z_dim, fc2_in_dim),
             # hyperbolic tangent
             nn.Tanh(),
             # 2nd linear layer
-            nn.Linear(fc2_input_dim, 5 * 10 * 32),
+            nn.Linear(fc2_in_dim, 5 * 10 * 32),
             nn.ReLU(True)
         )
         
