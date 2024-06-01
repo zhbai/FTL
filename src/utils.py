@@ -32,11 +32,11 @@ class Encoder(nn.Module):
         
         ## linear section
         self.encoder_lin = nn.Sequential(
-            # First linear layer
+            # 1st linear layer
             nn.Linear(5 * 10 * 32, fc2_in_dim),  
             # hyperbolic tangent
             nn.Tanh(),
-            # Second linear layer
+            # 2nd linear layer
             nn.Linear(fc2_in_dim, encoded_z_dim)
         )
         
