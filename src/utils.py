@@ -4,7 +4,6 @@ import torch
 from torch import nn
 from torch.autograd import Variable
 from torch.utils.data import DataLoader, random_split
-from scipy.interpolate import splrep, splev
 import warnings
 warnings.filterwarnings('ignore')
 
