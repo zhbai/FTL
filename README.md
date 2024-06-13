@@ -17,7 +17,7 @@ The publication "FTL: Transfer Learning Nonlinear Plasma Dynamic Transitions in 
 
 ## Getting started
 
-See `demo.ipynb` for demonstrating the approach on leveraging trained ML model to efficiently reconstruct kink modes through fine tuning. The execution of this file in Python/Jupyter illustrations the convergence and reconstruction error over training epochs using transfer learning.
+See [`demo.ipynb`](./demo/FTL_demo.ipynb) for demonstrating the approach on leveraging trained ML model to efficiently reconstruct kink modes through fine tuning. The execution of this file in Python/Jupyter illustrations the convergence and reconstruction error over training epochs using transfer learning.
 
 ## License (modified BSD license)
 
@@ -27,7 +27,7 @@ See the [LICENSE file](LICENSE) for details.
 
 [1] Z. Bai, X. Wei, W. Tang, L. Oliker, Z. Lin, S. Williams, FTL: Transfer Learning Nonlinear Plasma Dynamic Transitions in Low Dimensional Embeddings via Deep Neural Networks, arXiv Preprint, arxiv.org/abs/2404.17466, 2024.<br />  
 
-****************************
+
 ## About
 *** Copyright Notice ***
 
