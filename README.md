@@ -29,8 +29,6 @@ See the [LICENSE file](LICENSE) for details.
 
 ****************************
 
-*** Copyright Notice ***
-
 FTL: Transfer Learning Nonlinear Plasma Dynamic Transitions in Low Dimensional Embeddings (FTL) Copyright (c) 2024, The Regents of the University of California, through Lawrence Berkeley National Laboratory (subject to receipt of any required approvals from the U.S. Dept. of Energy). All rights reserved.
 
 If you have questions about your rights to use or distribute this software,
