@@ -28,7 +28,7 @@ class Decoder(nn.Module):
             nn.BatchNorm2d(8),
             nn.ReLU(True),
             # 3rd transposed convolution operator 
-            nn.ConvTranspose2d(8, 1, 3, stride=3, padding=1, output_padding= (1, 0)) # 34*3-3-2+3+1= 101, 61*3-3-2+3 = 181
+            nn.ConvTranspose2d(8, 1, 3, stride=3, padding=1, output_padding= (1, 0)) # 34*3-3-2+3+1 = 101, 61*3-3-2+3 = 181
         )
         
     def forward(self, x):
