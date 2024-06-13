@@ -1,5 +1,5 @@
 # Fusion Transfer Learning (FTL)
-<img align="right" src='demo/FTL_logo.png' width='200'>
+<img align="center" src='demo/FTL_logo.png' width='250'>
 FTL [1] model provides a new paradigm to study high-dimensional dynamical behaviors, such as those in fusion plasma systems. The knowledge transfer process leverages a pre-trained neural encoder-decoder network, initially trained on linear simulations, to effectively capture nonlinear dynamics. The low-dimensional embeddings extract the coherent structures of interest, while preserving the inherent dynamics of the complex system. Experimental results highlight FTL's capacity to capture transitional behaviors and dynamical features in plasma dynamics -- a task often challenging for conventional methods. The model developed in this study is generalizable and can be extended broadly through transfer learning to address various magnetohydrodynamics (MHD) modes.
 
 The publication "FTL: Transfer Learning Nonlinear Plasma Dynamic Transitions in Low Dimensional Embeddings via Deep Neural Networks" by Z. Bai, X. Wei, W. Tang, L. Oliker, Z. Lin and S. Williams is available on [arXiv](https://arxiv.org/abs/2404.17466).
