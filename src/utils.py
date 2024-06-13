@@ -96,3 +96,6 @@ def plot_ae_outputs(data, X, Z, device, encoder, decoder, epoch, n, i_seq):
         #     ax.set_title('Residual')
     plt.tight_layout()
     plt.show()
+
+if __name__ == "__main__":
+    main()
